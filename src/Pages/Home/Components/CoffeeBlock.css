@@ -1,0 +1,35 @@
+.CoffeeBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 10px 22px 10px;
+    position: relative;
+    background: linear-gradient(137deg, #252a32 0%, #262b33 100%);
+    border-radius: 23px;
+}
+.CoffeeBlockTitle {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 154%;
+    color: #fff;
+    margin-top: 10px;
+}
+.CoffeeBlockDesc {
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 222%;
+    color: #fff;
+}
+.price {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 133%;
+    color: #d17842;
+    margin-top: 6px;
+}
+.price span {
+    color: #fff;
+}
+.picturesBlockLowerSection {
+    display: flex;
+    justify-content: space-between;
+}

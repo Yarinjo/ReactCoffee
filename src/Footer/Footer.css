@@ -1,0 +1,9 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 35px;
+  }
+.sidebar-link__icon:hover {
+    color: red;
+}

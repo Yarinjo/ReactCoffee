@@ -1,0 +1,6 @@
+.cofeeSort {
+    display: flex;
+    gap: 19px;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}

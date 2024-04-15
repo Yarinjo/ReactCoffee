@@ -1,0 +1,6 @@
+.CoffeeList {
+display: flex;
+overflow-x: auto;
+gap: 22px;
+}
+

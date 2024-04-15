@@ -1,0 +1,38 @@
+@import url('/src/Pages/Home/Components/CoffeeList.css');
+@import url('/src/Pages/Home/Components/CoffeeBlock.css');
+@import url('/src/Pages/Home/Components/Label.css');
+@import url('/src/Header/Header.css');
+@import url('/src/styles/base/layout.css');
+@import url('/src/styles/helpers/icons.css');
+@import url('/src/styles/helpers/normalize.css');
+@import url('/src/styles/helpers/vars.css');
+@import url('/src/Pages/Home/Components/CoffeeSort.css');
+@import url('/src/Button/ButtonAdd.css');
+@import url('/src/Footer/Footer.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#root {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+  html {
+    font-size: 1px;
+  }
+  html,body {
+    height: 100%;
+  }
+  body {
+    font-size: 16rem;
+    font-family: "Poppins", sans-serif;
+    background: #0C0F14;
+    color: #fff;
+  }
+  
