@@ -26,7 +26,7 @@ export const CoffeeBlock = (props) => {
   return (
     <>
       <div className='CoffeeBlock'>
-      <Link to={'/product1'}>
+      <Link to={props.link}>
         
           <img src={CoffeePicture} alt="Coffee" />
         {/* <img class="starBlock" src="assets/star.png" alt="asdas">
