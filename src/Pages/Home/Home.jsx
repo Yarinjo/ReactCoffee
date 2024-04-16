@@ -20,6 +20,7 @@ export const Home = () => {
       <CoffeeList />
       <h2>Coffee beans</h2>
       <BeansList />
+      <p>Total price: </p>
     </main>
     <Footer />
     </>

@@ -7,6 +7,7 @@ import { About } from './Pages/About/About.jsx'
 import { Home } from './Pages/Home/Home.jsx'
 import { Header } from './Header/Header.jsx'
 import { ApiProvider } from './ApiProvider.jsx'
+import { Product } from './Product/Product.jsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -30,6 +31,7 @@ const router = createBrowserRouter(
     <>
   <Route path='/' element={<Home />} />
   <Route path='/about' element={<About />} />
+  <Route path='/product1' element={<Product />} />
   </>
   )
 );
