@@ -1,0 +1,164 @@
+.main {
+    max-width: 410px;
+    padding: 20px;
+}
+.product {
+    position: relative;
+}
+.coffeeDesc {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    width: 390px;
+    padding: 19px 20px 15px 20px;
+}
+.coffeeName {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+.coffeeName img {
+    display: inline-flex;
+    width: 22px;
+}
+.coffeeName p {
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+color: #fff;
+}
+.coffeeNameLocation {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #aeaeae;
+}
+.rating {
+    margin-top: 25px;
+}
+
+.ratingNumber {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #fff;
+}
+.ratingVote {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 200%;
+    color: #aeaeae;
+}
+.coffeeType {
+    display: flex;
+    flex-direction: column;
+}
+.coffeeType img{
+    max-width: 32px;
+}
+.bean, .location {
+    background: #141921;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 12px 5px 12px;
+    max-width: 55px;
+    height: 55px;
+
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 200%;
+    color: #aeaeae;
+}
+.roasted {
+    padding: 12px 22px;
+    background: #141921;
+    display: flex;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 200%;
+    color: #aeaeae;
+    margin-top: 13px;
+    border-radius: 10px;
+}
+.bottomSectionRow {
+    display: flex;
+    gap: 20px;
+}
+
+
+.bottomSection {
+    margin-top: 20px;;
+}
+.description {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    color: #aeaeae;
+    margin-bottom: 8px;
+}
+.description p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 167%;
+    color: #fff;
+}
+.sizeTitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 143%;
+    color: #aeaeae;
+}
+.size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: auto;
+    gap: 25px;
+    margin-top: 12px;
+}
+.sizegm {
+    padding: 10px 28px;
+    background: #141921;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    color: #aeaeae;
+}
+.price {
+    display: flex;
+    gap: 40px;
+    margin-top: 28px;
+}
+.priceBlock {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 167%;
+    color: #aeaeae;
+    margin-top: 8px;
+    text-align: center;
+}
+.priceBlock p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    color: #d17842;
+}
+.priceBlock p span {
+    color: #fff;
+}
+.price button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    color: #fff;
+    background: #d17842;
+    padding: 20px 73px;
+    border-radius: 20px;
+}

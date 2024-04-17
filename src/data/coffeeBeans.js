@@ -1,4 +1,6 @@
-import coffeePicture1 from '/src/assets/coffee-clear1.png'
+import coffeeBeanPicture1 from '/src/assets/coffee-beens1.png'
+import coffeeBeanPicture2 from '/src/assets/coffee-beens2.png'
+import coffeeBeanPicture3 from '/src/assets/coffee-beens3.png'
 
 
 export const coffeeBeanInfo = [
@@ -7,6 +9,7 @@ export const coffeeBeanInfo = [
         description: 'Medium Roasted',
         price: 4.20,
         link: '/product1',
+        picture: '/src/assets/coffee-beens1.png'
 
     },
     {
@@ -14,12 +17,13 @@ export const coffeeBeanInfo = [
         description: 'With Steamed Milk',
         price: 4.20,
         link: '/product1',
-        picture: '.src/assets/coffee-clear1.png',
+        picture: '/src/assets/coffee-beens2.png'
     },
     {
         title: 'Cappuccino',
         description: 'With Steamed Milk',
         price: 4,
         link: '/product1',
+        picture: '/src/assets/coffee-beens3.png'
     },
 ]

@@ -5,6 +5,8 @@ import { ButtonAdd } from '../../../Button/ButtonAdd'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { Product } from '../../../Product/Product'
+import StarBlock from '/src/assets/starblock.png'
+import star from '/src/assets/star.png'
 
 
 export const CoffeeBlock = (props) => {
@@ -29,18 +31,18 @@ export const CoffeeBlock = (props) => {
       <Link to={props.link}>
         
           <img src={props.picture} alt="Coffee" />
-        {/* <img class="starBlock" src="assets/star.png" alt="asdas">
-        <img class="star" src="assets/star-svg.svg" alt="asdas"> */}
+        <img className="starBlock" src={StarBlock} alt="starblock"/>
+        <img className="star" src={star} alt="asdas"/>
         <p className="CoffeeBlockTitle">{props.title}</p>
-        {/* <span className="rate">4.5</span> */}
+        <span className="rate">{ props.rate }</span>
         <span className="CoffeeBlockDesc">{props.description}</span>
         </Link>
         <div className="picturesBlockLowerSection">
           <p className="price">$ <span>{props.price}</span></p>
       <ButtonAdd onClick={() => handleClick('SSS')}>Add</ButtonAdd>
       </div>
-      <p>{ add } </p>
-      <p className='totalPrice'>{ totalPrice } </p>
+      <p>total: { add } </p>
+      <p className='totalPrice'>total price: { totalPrice } </p>
       </div>
       
     </>

@@ -8,8 +8,8 @@ export const coffeeInfo = [
         description: 'With Steamed Milk',
         price: 4.20,
         link: '/product1',
-        picture: '/src/assets/coffee-clear1.png'
-
+        picture: '/src/assets/coffee-clear1.png',
+        rate: 4.5,
     },
     {
         title: 'Cappuccino',
@@ -17,6 +17,7 @@ export const coffeeInfo = [
         price: 4.20,
         link: '/product1',
         picture: '/src/assets/coffee-clear2.png',
+        rate: 4.2,
 
     },
     {
@@ -25,5 +26,6 @@ export const coffeeInfo = [
         price: 4.20,
         link: '/product1',
         picture: '/src/assets/coffee-clear3.png',
+        rate: 4.5,
     },
 ]
