@@ -11,6 +11,7 @@ import { Product } from './Product/Product.jsx'
 import { Notification } from './Pages/Notification/Notification.jsx'
 import { Favourites } from './Pages/Favourites/Favourites.jsx'
 import { Cart } from './Pages/Cart/Cart.jsx'
+import { Product2 } from './Product/Product2.jsx'
 
 // const router = createBrowserRouter([
 //   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter(
   <Route path='/' element={<Home />} />
   <Route path='/about' element={<About />} />
   <Route path='/product1' element={<Product />} />
-  <Route path='/product2' element={<Product />} />
+  <Route path='/product2' element={<Product2 />} />
   <Route path='/cart' element={<Cart />} />
   <Route path='/favourites' element={<Favourites />} />
   <Route path='/notification' element={<Notification />} />

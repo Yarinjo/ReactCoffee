@@ -6,18 +6,19 @@ import  CoffeeBeanBig  from '/src/assets/coffee-bean-big.png'
 import sort from '/src/assets/sort.png'
 import location from '/src/assets/location.svg'
 import star from '/src/assets/star.png'
+import CoffeeBig from '/src/assets/cappuccino-big.png'
 
-export const Product = () => {
+export const Product2 = () => {
   return (
     <>
       <Header />
       <main className="main">
 <div className="product">
     {/* <span className="icon-chevron-left"></span> */}
-    <img src={ CoffeeBeanBig } alt="coffee"/>
+    <img src={ CoffeeBig } alt="coffee"/>
     <div className="coffeeDesc">
         <div className="coffeeName">
-            <p>Robusta Beans</p>
+            <p>Cappuccino</p>
             <span className="coffeeNameLocation">From Africa</span>
             <div className="rating">
                 <img src={star} alt="star"/>
@@ -55,7 +56,7 @@ export const Product = () => {
     <div className="price">
         <div className="priceBlock">
             Price 
-            <p>$ <span>10.50</span></p>
+            <p>$ <span>4.20</span></p>
         </div>
         <button>Add to Cart</button>
     </div>
