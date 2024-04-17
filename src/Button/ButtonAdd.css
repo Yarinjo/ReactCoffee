@@ -1,5 +1,8 @@
 .button {
-    display: block
+    display: inline-block;
+    background: linear-gradient(137deg, #252a32 0%, #262b33 100%);
+    border: 0;
+    outline: 0;
 }
 .button img {
     

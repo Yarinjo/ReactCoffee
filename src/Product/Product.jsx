@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import { Header } from '../Header/Header'
 import { Footer } from '../Footer/Footer'
 import  CoffeeBeanBig  from '/src/assets/coffee-bean-big.png'
+import sort from '/src/assets/sort.png'
+import location from '/src/assets/location.svg'
+import star from '/src/assets/star.png'
 
 export const Product = () => {
   return (
@@ -10,26 +13,26 @@ export const Product = () => {
       <Header />
       <main className="main">
 <div className="product">
-    <span className="icon-chevron-left"></span>
-    <img src={ CoffeeBeanBig } alt="dasdasdsa"/>
+    {/* <span className="icon-chevron-left"></span> */}
+    <img src={ CoffeeBeanBig } alt="coffee"/>
     <div className="coffeeDesc">
         <div className="coffeeName">
             <p>Robusta Beans</p>
             <span className="coffeeNameLocation">From Africa</span>
             <div className="rating">
-                <img src="assets/star-svg.svg" alt="star"/>
+                <img src={star} alt="star"/>
                 <span className="ratingNumber">4.5</span>
                 <span classna="ratingVote">(6,879)</span>
             </div>
         </div>
         <div className="coffeeType">
-            <div className="iReallyNeedSoMuchDivsToCreateThisPage">
+            <div className="bottomSectionRow">
                 <div className="bean">
-                    <img src="assets/been.svg" alt="ewe"/>
+                    <img src={sort} alt="sort"/>
                     Bean
                 </div>
                 <div className="location">
-                    <img src="assets/location.svg" alt="ewe"/>
+                    <img src={location} alt="africa"/>
                     Africa
                 </div>
             </div>

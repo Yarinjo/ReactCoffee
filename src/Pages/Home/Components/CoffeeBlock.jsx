@@ -28,7 +28,7 @@ export const CoffeeBlock = (props) => {
       <div className='CoffeeBlock'>
       <Link to={props.link}>
         
-          <img src={CoffeePicture} alt="Coffee" />
+          <img src={props.picture} alt="Coffee" />
         {/* <img class="starBlock" src="assets/star.png" alt="asdas">
         <img class="star" src="assets/star-svg.svg" alt="asdas"> */}
         <p className="CoffeeBlockTitle">{props.title}</p>
@@ -37,12 +37,12 @@ export const CoffeeBlock = (props) => {
         </Link>
         <div className="picturesBlockLowerSection">
           <p className="price">$ <span>{props.price}</span></p>
-          {/* <img src="assets/plus.svg" alt="asdas"></img> */}
       <ButtonAdd onClick={() => handleClick('SSS')}>Add</ButtonAdd>
       </div>
       <p>{ add } </p>
-      </div>
       <p className='totalPrice'>{ totalPrice } </p>
+      </div>
+      
     </>
   )
 }
